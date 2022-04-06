@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+:root {
+    --color-primary:#023e8a;
+}
 html {
     scrollbar-width: none;
     -ms-overflow-style: none;

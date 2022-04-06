@@ -6,10 +6,3 @@ import { session } from './store';
 </script>
 
 <svelte:component style="width:100vw;" this={$session.isAuth ? Main : Login} />
-
-<style>
-    :global(:root) {
-        --color-primary:#023e8a;
-        --secondary-color:#e9d8a6;
-    }
-</style>
